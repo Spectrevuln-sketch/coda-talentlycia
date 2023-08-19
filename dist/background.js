@@ -6,7 +6,7 @@ var __webpack_exports__ = {};
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     console.log(msg);
     console.log(sender);
-    sendResponse("From The Background Script");
+    sendResponse("From The Background");
 });
 
 /******/ })()
