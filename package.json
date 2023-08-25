@@ -29,5 +29,10 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-merge": "^5.9.0"
+  },
+  "dependencies": {
+    "coda-js": "^4.0.1",
+    "react-data-table-component": "^7.5.3",
+    "styled-components": "^6.0.7"
   }
 }
