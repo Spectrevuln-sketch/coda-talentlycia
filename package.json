@@ -1,11 +1,11 @@
 {
   "name": "talent-coda",
   "version": "1.0.0",
-  "description": "Talentlytcia Coda Extentions Time Tracker Workflow",
+  "description": "Talentlytica Coda Extentions Time Tracker Workflow",
   "main": "index.js",
   "scripts": {
     "start": "webpack --watch --progress --config webpack.dev.js",
-    "build": "webpack --watch --progress --config webpack.prod.js"
+    "prod": "webpack --watch --progress --config webpack.prod.js"
   },
   "author": "",
   "license": "ISC",
@@ -21,7 +21,6 @@
     "postcss": "^8.4.28",
     "postcss-loader": "^7.3.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "style-loader": "^3.3.3",
     "tailwindcss": "^3.3.3",
     "ts-loader": "^9.4.4",
@@ -32,7 +31,12 @@
   },
   "dependencies": {
     "coda-js": "^4.0.1",
+    "lottie-react": "^2.4.0",
     "react-data-table-component": "^7.5.3",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-native-vector-icons": "^10.0.0",
+    "react-router-dom": "^6.15.0",
     "styled-components": "^6.0.7"
   }
 }

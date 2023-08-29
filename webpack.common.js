@@ -41,6 +41,9 @@ module.exports = {
     ]
   },
   resolve: {
+    alias: {
+      "react-native": "react-native-web"
+    },
     extensions: ['.tsx', '.ts', '.js']
   },
   plugins: [
